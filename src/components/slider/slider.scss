@@ -1,0 +1,51 @@
+.slider {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+
+  .container {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    // transform: translateX(-200vw);
+
+    img {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .icons {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .prev {
+      height: calc(100vh - 60px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      width: 100px;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .next {
+      height: calc(100vh - 60px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+      width: 100px;
+      right: 0px;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

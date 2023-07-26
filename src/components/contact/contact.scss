@@ -1,0 +1,51 @@
+.contact {
+  background-color: rgb(73, 101, 224);
+  margin: 20px 0 0 0;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+
+    gap: 20px;
+    span {
+      flex: 1;
+      color: white;
+      text-transform: uppercase;
+    }
+    .email {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      input {
+        padding: 10px;
+        border-left: 1px solid white;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-right: none;
+        background-color: rgb(73, 101, 224);
+        color: white;
+        width: 300px;
+        &::placeholder {
+          color: white;
+        }
+      }
+      button {
+        border: 1px solid white;
+        background-color: rgb(73, 101, 224);
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+    .social {
+      flex: 1;
+      color: white;
+      display: flex;
+      gap: 20px;
+      justify-content: right;
+    }
+  }
+}

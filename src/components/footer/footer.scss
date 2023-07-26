@@ -1,0 +1,47 @@
+.footer {
+  margin: 100px 10px 20px 10px;
+  .top {
+    display: flex;
+    align-items: center;
+    // background-color: rgb(200, 212, 209);
+    gap: 50px;
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      h2 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      span {
+        color: gray;
+        font-size: 14px;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    // background-color: rgb(217, 235, 229);
+    .left {
+      display: flex;
+      align-items: center;
+      .logo {
+        font-size: 24px;
+        color: rgb(73, 101, 224);
+        font-weight: 600;
+      }
+      .copyright {
+        color: gray;
+      }
+    }
+    .right {
+      img {
+        height: 50px;
+      }
+    }
+  }
+}
